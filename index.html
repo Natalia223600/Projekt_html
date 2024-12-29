@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rlearn</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .navbar {
+            padding: 0px;
+            background-color: #1d1f1c;
+        }
+
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+        }
+
+        .navbar-brand img {
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+            /* Mniejszy odstęp między logo a tekstem */
+        }
+
+        .navbar-nav {
+            margin-left: auto;
+        }
+
+        .navbar-nav .nav-link {
+            color: #daa402;
+            /* Kolor tekstu dla linków */
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #fff;
+            /* Kolor tekstu po najechaniu */
+        }
+
+        .yellow-text {
+            color: #daa402;
+            /* Żółty kolor tekstu */
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="C:\Users\User\Desktop\projekt\MOJE_LOGO.png" class="d-inline-block align-text-top">
+                Nie tylko wymawiaj, ale i koduj w R#
+            </a>
+
+            <!-- Przycisk rozwijania menu na urządzenia mobilne -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu nawigacyjne -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <!-- Przycisk do strony głównej -->
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Strona Główna</a>
+                    </li>
+
+                    <!-- Przycisk do rozwijania spisu treści -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#spis-tresci">Spis Treści</a>
+                    </li>
+
+                    <!-- Przycisk do mediów społecznościowych -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.socialmedia.com" target="_blank">Social Media</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Skrypt Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <div class="content-section">
+        <div class="container-fluid p-0"> <!-- Usunięcie domyślnych marginesów i paddingów kontenera -->
+            <div class="row no-gutters"> <!-- Usunięcie marginesów między kolumnami -->
+                <!-- Pierwsza kolumna z tekstem -->
+                <div class="col-md-6 bg-dark text-white py-5">
+                    <div class="bg-dark color=#daa402 text-center py-5">
+                        <h1 class="yellow-text">Witaj na Rlearn!</h1>
+                    </div>
+                    <h2>Rlearn, to strona stworzona z myślą o osobach, które pragną nauczyć się języka programowania R.
+                        Moja platforma oferuje materiały edukacyjne, które pomogą Ci poznać podstawy R, nauczyć się
+                        metod analizy danych oraz odkryć, jak R może wspierać Twoje projekty.</h2>
+                    <h2>Strona została stworzona w ramach projektu na studia z przedmiotu "Budowa systemów
+                        internetowych". Jest to część moich prac akademickich, mających na celu zdobycie praktycznej
+                        wiedzy o tworzeniu i zarządzaniu nowoczesnymi aplikacjami internetowymi. Dziękuję za odwiedzenie
+                        i życzę owocnej nauki!</h2>
+                </div>
+
+                <!-- Druga kolumna ze zdjęciem -->
+                <div class="col-md-6 p-0">
+                    <img src="C:/Users/User/Desktop/projekt/ja.jpg" alt="Właściciel strony" class="img-fluid"
+                        style="width: 100%; height: auto;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
